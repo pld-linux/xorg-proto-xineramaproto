@@ -1,4 +1,5 @@
-Summary:	.
+Summary:	Xinerama protocol and ancillary headers
+Summary(pl):	Nag³ówki protoko³u Xinerama i pomocnicze
 Name:		xorg-proto-xineramaproto
 Version:	1.1
 Release:	0.1
@@ -11,18 +12,28 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-util-util-macros
+Obsoletes:	xorg-proto-panoramixproto
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-.
+Xinerama protocol and ancillary headers.
+
+%description -l pl
+Nag³ówki protoko³u Xinerama i pomocnicze.
 
 %package devel
-Summary:	.
+Summary:	Xinerama protocol and ancillary headers
+Summary(pl):	Nag³ówki protoko³u Xinerama i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
+Obsoletes:	xorg-proto-panoramixproto-devel
 
 %description devel
-.
+Xinerama protocol and ancillary headers.
+
+%description devel -l pl
+Nag³ówki protoko³u Xinerama i pomocnicze.
+
 
 %prep
 %setup -q -n xineramaproto-%{version}
