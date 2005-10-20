@@ -1,12 +1,12 @@
 Summary:	Xinerama protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Xinerama i pomocnicze
 Name:		xorg-proto-xineramaproto
-Version:	1.1
+Version:	1.1.1
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/xineramaproto-%{version}.tar.bz2
-# Source0-md5:	91d70352ee2c7c8c3f848981719b90f3
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xineramaproto-%{version}.tar.bz2
+# Source0-md5:	dc7a13f4a128513ebad675b35eb36b58
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
