@@ -26,6 +26,7 @@ Summary:	Xinerama protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Xinerama i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
+Obsoletes:	panoramixext
 Obsoletes:	xorg-proto-panoramixproto-devel
 
 %description devel
