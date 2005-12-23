@@ -5,8 +5,8 @@ Version:	1.1.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/xineramaproto-%{version}.tar.bz2
-# Source0-md5:	aedc285fffda0dd9d3df98b42f3dfe2d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/xineramaproto-%{version}.tar.bz2
+# Source0-md5:	1cc292c562962ad0ad3a253cae68c632
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
