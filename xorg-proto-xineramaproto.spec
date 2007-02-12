@@ -1,5 +1,5 @@
 Summary:	Xinerama protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Xinerama i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Xinerama i pomocnicze
 Name:		xorg-proto-xineramaproto
 Version:	1.1.2
 Release:	1
@@ -22,7 +22,7 @@ Nagłówki protokołu Xinerama i pomocnicze.
 
 %package devel
 Summary:	Xinerama protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Xinerama i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Xinerama i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 Obsoletes:	panoramixext
