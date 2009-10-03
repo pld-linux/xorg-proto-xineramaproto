@@ -1,5 +1,5 @@
-Summary:	Xinerama protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Xinerama i pomocnicze
+Summary:	Xinerama extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Xinerama
 Name:		xorg-proto-xineramaproto
 Version:	1.2
 Release:	1
@@ -10,29 +10,29 @@ Source0:	http://xorg.freedesktop.org/releases/individual/proto/xineramaproto-%{v
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 1.3
 Obsoletes:	xorg-proto-panoramixproto
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Xinerama protocol and ancillary headers.
+Xinerama extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Xinerama i pomocnicze.
+Nagłówki rozszerzenia Xinerama.
 
 %package devel
-Summary:	Xinerama protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Xinerama i pomocnicze
+Summary:	Xinerama extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Xinerama
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 Obsoletes:	panoramixext
 Obsoletes:	xorg-proto-panoramixproto-devel
 
 %description devel
-Xinerama protocol and ancillary headers.
+Xinerama extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Xinerama i pomocnicze.
+Nagłówki rozszerzenia Xinerama.
 
 %prep
 %setup -q -n xineramaproto-%{version}
@@ -58,5 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%{_includedir}/X11/extensions/*.h
+%{_includedir}/X11/extensions/panoramiXproto.h
 %{_pkgconfigdir}/xineramaproto.pc
