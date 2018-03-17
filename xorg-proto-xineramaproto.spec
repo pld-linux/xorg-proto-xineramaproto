@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	Xinerama extension headers
 Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Xinerama
 Name:		xorg-proto-xineramaproto
 Version:	1.2.1
-Release:	2
+Release:	2.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/xineramaproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/xineramaproto-%{version}.tar.bz2
 # Source0-md5:	9959fe0bfb22a0e7260433b8d199590a
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros >= 1.3
